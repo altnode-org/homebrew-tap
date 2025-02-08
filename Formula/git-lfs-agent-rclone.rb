@@ -6,7 +6,7 @@ class GitLfsAgentRclone < Formula
 	version "0.0.3"
   
 	def install
-	  bin.install "release/git-lfs-agent-rclone"
+		bin.install "git-lfs-agent-rclone"
 	end
   
 	test do
